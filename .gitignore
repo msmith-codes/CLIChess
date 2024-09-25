@@ -1,3 +1,4 @@
+# CMake Ignores:
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,3 +11,12 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+# macOS
+.DS_Store
+
+# Executable
+CLIChess
+*.exe
+*.out
+*.app
